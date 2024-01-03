@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://bloodbank-apis.vercel.app/api/v1/",
+  baseURL: "https://bloodbank-7q4o.onrender.com/api/v1/",
 });
 
 API.interceptors.request.use((req) => {
